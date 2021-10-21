@@ -1,3 +1,6 @@
+
+/*General Starts*/
+
 body {
 	font-family: "Ubuntu", -apple-system, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	margin: 0px;
@@ -6,6 +9,13 @@ body {
 ul {
 	list-style: none;
 }
+a {
+	text-decoration: none;
+}
+
+/*General Ends*/
+
+/*Header - Navbar*/
 
 #hlogo {
 	max-height:50px;
@@ -14,29 +24,62 @@ ul {
 #hart {
 	display: flex;
 	width: 100%;
+	height: 30rem;
 }
 #navbar {
-	margin-top: -45%;
+	margin-top: -29rem;
 }
 #menubar {
 	display: flex;
 	margin-left: auto;
 }
-.menu-item {
+
+/*-----------------*/
+
+
+/*Clases*/
+
+.texto-blanco {
+	color: white;
+}
+.space-item {
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
-
-a {
+.texto-negro-mouse:hover {
+	color: #696969;
+}
+.active {
+	color: #696969;
+}
+.btn {
+	cursor: pointer;
+}
+.btn-blanco {
+	color: #696969;
+	background-color: white;
+	border: 10px;
+	border-color: white;
+	border-radius: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.btn-blanco-borde {
 	color: white;
-	text-decoration: none;
-
+	border: 10px;
+	border-color: white;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
-a:hover {
-	color: #000000A3;
+.btn-blanco-borde:hover {
+	color: #696969;
+	background-color: white;
+	border: 10px;
+	border-radius: 5px;
+	border-color: white;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
-
-
 .container {
 	max-width: 1200px;
 	padding-right: 70px;
@@ -46,3 +89,43 @@ a:hover {
 	margin-right: auto;
 	margin-left: auto;
 }
+.bloque {
+	max-width: 500px;
+	max-height: 100px;
+}
+/*--------------------------*/
+
+/*Id's - Clases Individuales*/
+
+	/*Cabecera - Inicio*/
+	#informacion {
+		margin-top: 4rem;
+	}
+	#texto-izquierda{
+		max-width: 600px;
+	}
+	#tih6 {
+		margin: 0px;
+		font-size: 20px;
+	}
+	#tih2 {
+		margin: 0px;
+		font-size: 60px;
+	}
+	#tip {
+		font-size: 21px;
+	}
+	#imagen-derecha {
+		max-width: 400px;
+	}
+	#lapc {
+		width: 350px;
+	}
+	/*-----------------*/
+
+	/*Bloques Informacion*/
+	#oferta {
+		margin-top: 8rem;
+		color: #414141
+	}
+	/*-------------------*/
