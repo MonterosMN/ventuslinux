@@ -38,13 +38,18 @@ a {
 
 
 /*Clases*/
-
+.bold-text {
+	font-weight: bold;
+}
+.light-text {
+	font-weight: lighter;
+}
 .texto-blanco {
 	color: white;
 }
 .space-item {
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 .texto-negro-mouse:hover {
 	color: #696969;
@@ -129,13 +134,23 @@ a {
 		color: #414141
 	}
 		/*Bloques Izquierda*/
-		.bizq{
+		.binf{
 			display: flex;
 			background-color: #f2f2f2b0;
 			border-radius: 5px;
 			border: 10px;
 			align-items: center;
-			height: 4.5rem;
+			border-bottom-left-radius: 0px;
+			border-bottom-right-radius: 0px;
+		}
+		.binf2{
+			display: flex;
+			background-color: #f2f2f2b0;
+			border-radius: 5px;
+			border: 10px;
+			align-items: center;
+			border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
 		}
 			#bipr {
 				background: linear-gradient(150deg, #CEE2FF 0%, #70acff 100%);
@@ -145,13 +160,19 @@ a {
 				margin-left: auto;
 				width: 23rem;
 			}
-		.bizq-ico {
+		.item-fila {
+			margin-bottom: 2rem;
+		}
+		.binf-ico {
 		display: flex;
 		width: 2.2rem;
 		margin-left: 2rem;
 		}
-		.bizq-txt {
+		.binf-txt {
 			margin-left: 2rem;
 			margin-right: 1rem;
 			display: flex;
+		}
+		.descbl {
+			font-size: 1.05rem;
 		}
