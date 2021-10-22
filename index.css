@@ -2,7 +2,7 @@
 /*General Starts*/
 
 body {
-	font-family: "Ubuntu", -apple-system, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: "Ubuntu", "Segoe UI", "Roboto", "Cantarell", "Droid Sans", sans-serif;
 	margin: 0px;
 }
 
@@ -128,4 +128,30 @@ a {
 		margin-top: 8rem;
 		color: #414141
 	}
-	/*-------------------*/
+		/*Bloques Izquierda*/
+		.bizq{
+			display: flex;
+			background-color: #f2f2f2b0;
+			border-radius: 5px;
+			border: 10px;
+			align-items: center;
+			height: 4.5rem;
+		}
+			#bipr {
+				background: linear-gradient(150deg, #CEE2FF 0%, #70acff 100%);
+			}
+			#fila1,#fila2,#fila3 {
+				margin-right: auto;
+				margin-left: auto;
+				width: 23rem;
+			}
+		.bizq-ico {
+		display: flex;
+		width: 2.2rem;
+		margin-left: 2rem;
+		}
+		.bizq-txt {
+			margin-left: 2rem;
+			margin-right: 1rem;
+			display: flex;
+		}

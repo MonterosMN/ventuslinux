@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fas"
+   data-icon="chart-line"
+   class="svg-inline--fa fa-chart-line"
+   role="img"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1129"
+   sodipodi:docname="chart-line-solid.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1133" />
+  <sodipodi:namedview
+     id="namedview1131"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.0214844"
+     inkscape:cx="255.51052"
+     inkscape:cy="256.48948"
+     inkscape:window-width="1366"
+     inkscape:window-height="710"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1129" />
+  <path
+     fill="currentColor"
+     d="M111.1 304C124.5 316.5 144.8 316.5 157.2 304L208 253.3l57.38 57.38C271.6 316.9 279.8 320 288 320s16.38-3.125 22.62-9.375l153.4-153.4c12.49-12.49 12.49-32.75 .0008-45.25c-12.5-12.5-32.76-12.5-45.25-.0018L288 242.8L230.6 185.4c-12.5-12.5-32.75-12.5-45.25 0L111.1 258.8C99.5 271.2 99.5 291.5 111.1 304zM480 416H64V63.1C64 46.33 49.67 32 32 32S0 46.33 0 63.1V448c0 17.6 14.4 32 32 32h448C497.7 480 512 465.7 512 448S497.7 416 480 416z"
+     id="path1127"
+     style="fill:#414141;fill-opacity:1;stroke:none" />
+</svg>
