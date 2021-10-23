@@ -180,6 +180,7 @@ footer {
 			}
 		.item-fila {
 			margin-bottom: 2rem;
+			height: 
 		}
 		.binf-ico {
 		display: flex;
@@ -190,9 +191,6 @@ footer {
 			margin-left: 2rem;
 			margin-right: 1rem;
 			display: flex;
-		}
-		.descbl {
-			font-size: 1.05rem;
 		}
 /*-----------------------------------------*/
 
@@ -205,15 +203,13 @@ footer {
 	display: flex;
 }
 	#fila1,#fila2{
-		width: 14rem;	
+		width: 15rem;	
 		margin-bottom: auto;
 	}
 	#fila2{
 		margin-left: 1rem; 
 	}
-	#colfp{
-		display: flex;
-		width: 25rem;
+	.colfp{
 		margin-top: auto;
 		margin-left: auto;
 		text-align: end;
