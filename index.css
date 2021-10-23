@@ -12,6 +12,10 @@ ul {
 a {
 	text-decoration: none;
 }
+footer {
+	width: 100%;
+	background-color: #414141;
+}
 
 /*General Ends*/
 
@@ -38,6 +42,12 @@ a {
 
 
 /*Clases*/
+.no-margin {
+	margin: 0;
+}
+.no-padding {
+	padding: 0;
+}
 .bold-text {
 	font-weight: bold;
 }
@@ -46,6 +56,9 @@ a {
 }
 .texto-blanco {
 	color: white;
+}
+.texto-celeste:hover {
+	color:#CEE2FF;
 }
 .space-item {
 	padding-left: 1.5rem;
@@ -155,9 +168,14 @@ a {
 			#bipr {
 				background: linear-gradient(150deg, #CEE2FF 0%, #70acff 100%);
 			}
-			#fila1,#fila2,#fila3 {
-				margin-right: auto;
+			#col1{
 				margin-left: auto;
+				margin-right: 1rem;
+				width: 23rem;
+			}
+			#col2{
+				margin-right: auto;
+				margin-left: 1rem;
 				width: 23rem;
 			}
 		.item-fila {
@@ -176,3 +194,27 @@ a {
 		.descbl {
 			font-size: 1.05rem;
 		}
+/*-----------------------------------------*/
+
+.footpagei {
+	display: flex;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.fp-text{
+	display: flex;
+}
+	#fila1,#fila2{
+		width: 14rem;	
+		margin-bottom: auto;
+	}
+	#fila2{
+		margin-left: 1rem; 
+	}
+	#colfp{
+		display: flex;
+		width: 25rem;
+		margin-top: auto;
+		margin-left: auto;
+		text-align: end;
+	}
