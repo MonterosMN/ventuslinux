@@ -15,8 +15,10 @@ a {
 footer {
 	width: 100%;
 	background-color: #414141;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
 }
-
 /*General Ends*/
 
 /*Header - Navbar*/
@@ -149,7 +151,7 @@ footer {
 		/*Bloques Izquierda*/
 		.binf{
 			display: flex;
-			background-color: #f2f2f2b0;
+			background-color: #b3ccffb0;
 			border-radius: 5px;
 			border: 10px;
 			align-items: center;
@@ -158,7 +160,7 @@ footer {
 		}
 		.binf2{
 			display: flex;
-			background-color: #f2f2f2b0;
+			background-color: #e6e6e6;
 			border-radius: 5px;
 			border: 10px;
 			align-items: center;
