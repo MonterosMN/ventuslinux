@@ -1,21 +1,9 @@
 
 /*General Starts*/
 
-.clearfix {
-  overflow: auto;
-}
-.clearfix::before, .clearfix::after{
-    display: table;
-    content: " ";
-}
-
-
 body {
 	font-family: "Ubuntu", "Segoe UI", "Roboto", "Cantarell", "Droid Sans", sans-serif;
 	margin: 0px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 ul {
@@ -28,8 +16,10 @@ footer {
 	width: 100%;
 	background-color: #414141;
 	display: block;
+	position: relative;
 	box-sizing: border-box;
 }
+
 /*General Ends*/
 
 /*Header - Navbar*/
@@ -41,10 +31,10 @@ footer {
 #hart {
 	display: flex;
 	width: 100%;
-	height: 30rem;
+	height: 22rem;
 }
 #navbar {
-	margin-top: -29rem;
+	margin-top: -21rem;
 }
 #menubar {
 	display: flex;
@@ -55,6 +45,18 @@ footer {
 
 
 /*Clases*/
+.flex {
+	display: flex;
+}
+.margin-auto {
+	margin: auto;
+}
+.margin-autol {
+	margin-left: auto;
+}
+.margin-autor {
+	margin-right: auto;
+}
 .no-margin {
 	margin: 0;
 }
@@ -67,6 +69,12 @@ footer {
 .light-text {
 	font-weight: lighter;
 }
+.item-centro {
+	justify-content: center;
+}
+.texto-centro {
+	text-align: center;
+}
 .texto-blanco {
 	color: white;
 }
@@ -76,6 +84,10 @@ footer {
 .space-item {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
+}
+.space-itemtb {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 .texto-negro-mouse:hover {
 	color: #696969;
@@ -98,13 +110,16 @@ footer {
 .btn-blanco-borde {
 	color: white;
 	border: 10px;
-	border-color: white;
+	background-color: #a0c2f7;
+	border-color: #a0c2f7;
+	border-radius: 5px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
 .btn-blanco-borde:hover {
-	color: #696969;
-	background-color: white;
+	color: white;
+	background-color: #76aafb;
+	border-color: #76aafb;
 	border: 10px;
 	border-radius: 5px;
 	border-color: white;
@@ -131,6 +146,8 @@ footer {
 	/*Cabecera - Inicio*/
 	#informacion {
 		margin-top: 4rem;
+		margin-left: auto;
+		margin-bottom: 5rem;
 	}
 	#texto-izquierda{
 		max-width: 600px;
@@ -161,8 +178,7 @@ footer {
 	}
 		/*Bloques Izquierda*/
 		.binf{
-			display: flex;
-			background-color: #b3ccffb0;
+			background-color: #80b3ff;
 			border-radius: 5px;
 			border: 10px;
 			align-items: center;
@@ -170,8 +186,7 @@ footer {
 			border-bottom-right-radius: 0px;
 		}
 		.binf2{
-			display: flex;
-			background-color: #e6e6e6;
+			background-color: #c8deff;
 			border-radius: 5px;
 			border: 10px;
 			align-items: center;
@@ -182,8 +197,6 @@ footer {
 				background: linear-gradient(150deg, #CEE2FF 0%, #70acff 100%);
 			}
 			#col1{
-				margin-left: auto;
-				margin-right: 1rem;
 				width: 23rem;
 			}
 			#col2{
@@ -205,6 +218,23 @@ footer {
 			margin-right: 1rem;
 			display: flex;
 		}
+/*-----------------------------------------*/
+
+.fmg {
+	margin-right: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.ftxt {
+	padding-bottom: 0.5rem;
+}
+.finp {
+	width: 16rem;
+	height: 1.5rem;
+	border: white;
+	border-radius: 0.3rem;
+}
+
 /*-----------------------------------------*/
 
 .footpagei {

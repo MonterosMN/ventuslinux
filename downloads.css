@@ -1,21 +1,9 @@
 
 /*General Starts*/
 
-.clearfix {
-  overflow: auto;
-}
-.clearfix::before, .clearfix::after{
-    display: table;
-    content: " ";
-}
-
-
 body {
 	font-family: "Ubuntu", "Segoe UI", "Roboto", "Cantarell", "Droid Sans", sans-serif;
 	margin: 0px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 ul {
@@ -28,6 +16,7 @@ footer {
 	width: 100%;
 	background-color: #414141;
 	display: block;
+	position: relative;
 	box-sizing: border-box;
 }
 /*General Ends*/
