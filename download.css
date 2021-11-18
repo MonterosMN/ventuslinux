@@ -30,10 +30,10 @@ footer {
 #hart {
 	display: flex;
 	width: 100%;
-	height: 30rem;
+	height: 22rem;
 }
 #navbar {
-	margin-top: -29rem;
+	margin-top: -21rem;
 }
 #menubar {
 	display: flex;
@@ -119,17 +119,19 @@ footer {
 
 	/*Cabecera - Inicio*/
 	#informacion {
-		margin-top: 4rem;
+		margin-top: 6rem;
+		margin-left: auto;
 	}
 	#texto-izquierda{
 		max-width: 600px;
+		margin-top: -3rem;
 	}
 	#tih6 {
 		margin: 0px;
 		font-size: 20px;
 	}
 	#tih2 {
-		margin: 0px;
+		margin-bottom: 0.5rem;
 		font-size: 60px;
 	}
 	#tip {
@@ -140,6 +142,10 @@ footer {
 	}
 	#lapc {
 		width: 350px;
+	}
+	#appico {
+		margin: 1rem;
+		margin-top: 2.5rem;
 	}
 	/*-----------------*/
 
