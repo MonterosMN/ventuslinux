@@ -1,3 +1,2 @@
 # VentusLinuxWeb
- > Ventus Linux Website - Eso es todo
- >> monterosmn.github.io/ventuslinux/index.html 
+ > Ventus Linux Website - That's it 🐸
